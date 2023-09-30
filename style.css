@@ -1,0 +1,27 @@
+html {
+    background-color: skyblue;
+}
+
+div{
+    display:flex;
+    flex-wrap:wrap;
+    border:groove;
+    flex-direction: column;
+}
+
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(16, 4fr);
+    grid-template-rows: repeat(16, 4fr);
+    height:750px;
+    width:750px;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    border:none;
+}
+
+
